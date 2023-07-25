@@ -1,7 +1,7 @@
 {
     "name": "ǫᴜᴇᴇɴダᴍᴜsɪᴄ",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/69ac92370405f9205f272.jpg",
+    "logo": "https://telegra.ph/file/828183b81332e22712778.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -100,12 +100,12 @@
       },
       "SUPPORT_GROUP": {
         "description": "Link of your support group ! Channel ki id mat daal dena bsdk.",
-        "value": "https://t.me/+DllhdM36-tgzMDRl",
+        "value": "https://telegra.ph/file/828183b81332e22712778.jpg",
         "required": false
       },
       "SUPPORT_CHANNEL": {
         "description": "Link of your telegram channel.",
-        "value": "https://t.me/AboutNihal",
+        "value": "https://telegra.ph/file/828183b81332e22712778.jpg",
         "required": false
       }
     },
