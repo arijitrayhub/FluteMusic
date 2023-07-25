@@ -7,8 +7,8 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "16157631"))
-API_HASH = getenv("API_HASH", "4c585632f990d84ac0bf7e881f49ebeb")
+API_ID = int(getenv("API_ID", "22143489"))
+API_HASH = getenv("API_HASH", "762c83ace9035c268f43b30f058cd031")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
@@ -22,12 +22,12 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001825499105"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-998204469"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ǫᴜᴇᴇɴ ダ ᴍᴜsɪᴄ​")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝙵𝚕𝚘𝚞𝚝𝚎 ✘ 𝙼𝚞𝚜𝚒𝚌​")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "926151330").split())
+    map(int, getenv("OWNER_ID", "6065362096").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -36,16 +36,16 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://t.me/+DllhdM36-tgzMDRl",
+    "https://t.me/FluteSupport",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/AboutNihal")
+    "SUPPORT_CHANNEL", "https://t.me/FluteSupport")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/+DllhdM36-tgzMDRl")
+    "SUPPORT_GROUP", "https://t.me/FluteSupport")
 
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
@@ -61,7 +61,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "5"))
 
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "6"))
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/+DllhdM36-tgzMDRl")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/FluteSupport")
 
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
